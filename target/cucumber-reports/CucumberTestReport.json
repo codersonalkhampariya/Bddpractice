@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-26T18:57:19.741Z",
+        "line": 18,
+        "name": "User selects an EMI tenure",
+        "description": "",
+        "id": "title-of-your-feature;user-selects-an-emi-tenure",
+        "after": [
+          {
+            "result": {
+              "duration": 57600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8683889400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user have the url, mobile number and broswer name \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginStepDef.user_have_the_url_and_mobile_number(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51851500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user landed to Screenone",
+            "match": {
+              "location": "LoginStepDef.user_landed_to_Screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154289000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user send mobile number as \"9988998899\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9988998899\"",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDef.user_send_mobile_number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1485276300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user have to validate mobile number and reach to screenTitle",
+            "match": {
+              "location": "LoginStepDef.user_have_to_validate_mobile_number_and_reach_to_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83137300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user select the EMI tenure",
+            "match": {
+              "location": "LoginStepDef.user_select_the_EMI_tenure()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127907100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on the confirm",
+            "match": {
+              "location": "LoginStepDef.click_on_the_confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9386800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user will reach to Transaction confirmation window",
+            "match": {
+              "location": "LoginStepDef.user_will_reach_to_Transaction_confirmation_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1480121000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters last Four digits of their Debit card as \"1234\" and click on VerifyDebitCard details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginStepDef.user_enters_last_digits_of_their_Debit_card_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 523813200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter the OTP as \"777777\" and click on Term and conditions check box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"777777\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDef.enter_the_OTP_as_and_click_on_Term_and_conditions_check_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188731100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Verify and confirm button",
+            "match": {
+              "location": "LoginStepDef.click_on_Verify_and_confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3620041200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user will landed to Transaction details screen",
+            "match": {
+              "location": "LoginStepDef.user_will_landed_to_Transaction_details_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag4"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Featurefile/Transaction.feature",
+    "tags": []
+  }
+]
