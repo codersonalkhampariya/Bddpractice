@@ -1,10 +1,12 @@
 package com.stepdef;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.Pages.LoginPage;
 import com.testBase.TestBase;
+import com.utility.LoggerReports;
 import com.utility.Waitlib;
 
 import io.cucumber.java.After;
@@ -14,6 +16,8 @@ import io.cucumber.java.en.When;
 
 public class LoginStepDef {
 	public static WebDriver driver;
+	
+	Logger log = LoggerReports.getLogger(LoginStepDef.class);
 	
 	LoginPage loginpage;
 	Waitlib waitlib = new Waitlib(driver);
@@ -28,6 +32,7 @@ public class LoginStepDef {
 	public void user_have_the_url_and_mobile_number(String brname) {
 		
 		driver = tb.setupBrowser(brname);
+		log.info("Browser Open");
 	}
 
 	@When("user landed to Screenone")

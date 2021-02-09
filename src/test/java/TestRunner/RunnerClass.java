@@ -21,6 +21,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
                 "html:target/cucumber-reports/cucumber-pretty",
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
+               ,"html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json"
         })
 public class RunnerClass{ 
 private TestNGCucumberRunner testNGCucumberRunner;
